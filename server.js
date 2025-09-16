@@ -36,6 +36,10 @@ app.get("/", (req, res) => {
                "Search by ISBN using Promises",
             "GET /api/books/author-search/:author": "Search by Author",
             "GET /api/books/title-search/:title": "Search by title",
+            "GET /api/books/author-async/:author":
+               "Search by Author using async/await",
+            "GET /api/books/title-async/:title":
+               "Search by title using async/await",
          },
          auth: {
             "POST /api/auth/register": "Register new user",
