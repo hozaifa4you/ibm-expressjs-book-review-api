@@ -9,6 +9,7 @@
    "dependencies": {
       "body-parser": "latest",
       "cors": "latest",
+      "dotenv": "^17.2.2",
       "express": "latest"
    },
    "devDependencies": {
